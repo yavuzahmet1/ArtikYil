@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("Lütfen artık yıl olup olmadığını öğreneceğiniz yılı seçiniz\t: ");
+        int artikYil=scanner.nextInt();
+        if (artikYil%4==0){
+            System.out.println(artikYil+" bir artık yıldırdır !");
+        }else {
+            System.out.println(artikYil+" bir artık yıldır değildir !");
+        }
+    }
+}
